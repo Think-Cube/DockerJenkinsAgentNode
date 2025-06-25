@@ -27,7 +27,7 @@ variables:
   - name: VM_IMAGE
     value: ubuntu-latest
   - name: IMAGE_NAME
-    value: "think-cube/docke-jenkins-agent-node"
+    value: "think-cube/docker-jenkins-agent-node"
 
 pool:
   vmImage: $(VM_IMAGE)
