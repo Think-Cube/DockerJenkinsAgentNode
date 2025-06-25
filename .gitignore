@@ -1,0 +1,30 @@
+# Ignore Docker-related files
+**/*-docker.tar
+docker-compose.override.yml
+.docker/
+
+# Ignore Docker build output
+*.log
+*.pid
+*.bak
+*.swp
+*.tmp
+
+# Ignore node_modules if using Node.js
+node_modules/
+
+# Ignore dotenv files (secrets)
+.env
+.env.*
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore editor and system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
