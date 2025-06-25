@@ -1,4 +1,4 @@
-FROM debian:bookworm-20231009
+FROM debian:12.11
 
 ARG user=jenkins
 ARG group=jenkins
